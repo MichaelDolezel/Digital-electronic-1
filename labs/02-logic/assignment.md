@@ -1,4 +1,4 @@
-# Lab 2: Michael Dolezel
+# Lab 2: Michael Dolezel 230241
 
 ### 2-bit comparator
 
