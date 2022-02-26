@@ -6,12 +6,12 @@
 
    Greater than:
    
-   <img src="https://github.com/MichaelDolezel/digital-electronic-1/blob/d3aefe12061293ee34bf47f212ee85cf962a730b/labs/02-logic/Images/Greater.png" width=20% height=20%>
+   <img src="https://github.com/MichaelDolezel/digital-electronic-1/blob/d3aefe12061293ee34bf47f212ee85cf962a730b/labs/02-logic/Images/Greater.png" width=30% height=30%>
 
 
    Less than:
    
-   <img src="https://github.com/MichaelDolezel/digital-electronic-1/blob/c037a44ecb923b85a68d7d72d007216c2d3600bc/labs/02-logic/Images/Less.png" width=20% height=20%>
+   <img src="https://github.com/MichaelDolezel/digital-electronic-1/blob/c037a44ecb923b85a68d7d72d007216c2d3600bc/labs/02-logic/Images/Less.png" width=30% height=30%>
 
 
 2. Equations of simplified SoP (Sum of the Products) form of the "greater than" function and simplified PoS (Product of the Sums) form of the "less than" function.
