@@ -53,7 +53,7 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   ![your figure]()
+    <img src="https://github.com/MichaelDolezel/digital-electronic-1/blob/fa60068d039650a82b01cd0df4e79eead37479f9/labs/02-logic/Images/123.png" width=50% height=50%>
 
 3. Link to your public EDA Playground example:
 
