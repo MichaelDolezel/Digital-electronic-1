@@ -1,4 +1,4 @@
-# Lab 3: JAN GROSS 230067
+# Lab 3: Michael Doležel
 
 ### Three-bit wide 4-to-1 multiplexer
 
@@ -16,7 +16,7 @@ end architecture Behavioral;
 
 2. Screenshot with simulated time waveforms. Always display all inputs and outputs (display the inputs at the top of the image, the outputs below them) at the appropriate time scale!
 
-   ![your figure](https://github.com/garry474/digital-electronics-1/blob/main/labs/03-vivado/images/graph1.png)
+   ![your figure]()
 
 3. Listing of pin assignments for the Nexys A7 board in `nexys-a7-50t.xdc`. **DO NOT list** the whole file, just your switch and LED settings.
 
@@ -38,8 +38,10 @@ set_property -dict { PACKAGE_PIN T13   IOSTANDARD LVCMOS33 } [get_ports { d_i[2]
 #set_property -dict { PACKAGE_PIN U12   IOSTANDARD LVCMOS33 } [get_ports { SW[13] }]; #IO_L20P_T3_A08_D24_14 Sch=sw[13]
 set_property -dict { PACKAGE_PIN U11   IOSTANDARD LVCMOS33 } [get_ports { sel_i[0] }]; #IO_L19N_T3_A09_D25_VREF_14 Sch=sw[14]
 set_property -dict { PACKAGE_PIN V10   IOSTANDARD LVCMOS33 } [get_ports { sel_i[1] }]; #IO_L21P_T3_DQS_14 Sch=sw[15]
+
 ## LEDs
 set_property -dict { PACKAGE_PIN H17   IOSTANDARD LVCMOS33 } [get_ports { f_o[0] }]; #IO_L18P_T2_A24_15 Sch=led[0]
 set_property -dict { PACKAGE_PIN K15   IOSTANDARD LVCMOS33 } [get_ports { f_o[1] }]; #IO_L24P_T3_RS1_15 Sch=led[1]
-set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { f_o[2] }]; #IO_L17N_T2_A25_15 Sch=led[2
+set_property -dict { PACKAGE_PIN J13   IOSTANDARD LVCMOS33 } [get_ports { f_o[2] }]; #IO_L17N_T2_A25_15 Sch=led[2]
+...
 ```
