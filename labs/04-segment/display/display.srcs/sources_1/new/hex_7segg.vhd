@@ -32,8 +32,14 @@ use IEEE.STD_LOGIC_1164.ALL;
 --use UNISIM.VComponents.all;
 
 entity hex_7segg is
-    Port ( hex_i : in STD_LOGIC_VECTOR (3 downto 0);
-           seg_o : out STD_LOGIC_VECTOR (6 downto 0));
+    port(
+        hex_i   : in  std_logic_vector(4 - 1 downto 0);
+        seg_o   : out std_logic_vector(7 - 1 downto 0);
+        dioda1_o : out std_logic_vector(1 - 1 downto 0);
+        dioda2_o : out std_logic_vector(1 - 1 downto 0);
+        dioda3_o : out std_logic_vector(1 - 1 downto 0);
+        dioda4_o : out std_logic_vector(1 - 1 downto 0)
+    );
 end hex_7segg;
 
 architecture Behavioral of hex_7segg is
@@ -52,6 +58,14 @@ begin
     --          |||            |
     -- seg_o = "0000001"-------+
     --------------------------------------------------------
+    dioda1_o <= "0" when (hex_i = "0000") else "1"; 
+    
+    dioda2_o <= "0" when (hex_i > "1001") else "1";   
+    
+    dioda3_o <= "0" when (hex_i(0) = '1') else "1"; 
+    
+    dioda4_o <= "0" when (hex_i = "0001") or (hex_i = "0010") or (hex_i = "0100") or (hex_i = "1000")  else "1";
+    
     p_7segg_decoder : process(hex_i)
     begin
         case hex_i is
