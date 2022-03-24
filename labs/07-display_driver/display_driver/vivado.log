@@ -1,0 +1,413 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Mar 24 11:25:46 2022
+# Process ID: 10744
+# Current directory: D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3908 D:\Documents\230241\digital-electronic-1\labs\07-display_driver\display_driver\display_driver.xpr
+# Log file: D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/vivado.log
+# Journal file: D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/APPZ/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+add_files -norecurse {D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd}
+update_compile_order -fileset sources_1
+add_files -norecurse D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd
+WARNING: [filemgmt 56-12] File 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd' cannot be added to the project because it already exists in the project, skipping this file
+add_files -norecurse D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd
+WARNING: [filemgmt 56-12] File 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd' cannot be added to the project because it already exists in the project, skipping this file
+add_files -norecurse D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd
+WARNING: [filemgmt 56-12] File 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd' cannot be added to the project because it already exists in the project, skipping this file
+add_files -norecurse D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd
+WARNING: [filemgmt 56-12] File 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd' cannot be added to the project because it already exists in the project, skipping this file
+update_compile_order -fileset sources_1
+file mkdir D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new
+set_property SOURCE_SET sources_1 [get_filesets sim_1]
+close [ open D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd w ]
+add_files -fileset sim_1 D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7segg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+ERROR: [VRFC 10-4982] syntax error near 'reset' [D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:64]
+ERROR: [VRFC 10-719] formal port/generic <cnt_0> is not declared in <cnt_up_down> [D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:66]
+ERROR: [VRFC 10-3353] formal port 'reset' has no actual or default value [D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:57]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:31]
+INFO: [VRFC 10-3070] VHDL file 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '2' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+update_compile_order -fileset sim_1
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7segg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+ERROR: [VRFC 10-719] formal port/generic <cnt_0> is not declared in <cnt_up_down> [D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:66]
+ERROR: [VRFC 10-3782] unit 'behavioral' ignored due to previous errors [D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd:31]
+INFO: [VRFC 10-3070] VHDL file 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd' ignored due to errors
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-99] Step results log file:'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log'
+ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xvhdl.log' file for more information.
+ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation.
+ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/clock_enable.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'clock_enable'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/cnt_up_down.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'cnt_up_down'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/hex_7segg.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'hex_7segg'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/APPZ/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=400000)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7segg [hex_7segg_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_driver_7seg_4digits
+Built simulation snapshot tb_driver_7seg_4digits_behav
+
+****** Webtalk v2020.1 (64-bit)
+  **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+  **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xsim.dir/tb_driver_7seg_4digits_behav/webtalk/xsim_webtalk.tcl -notrace
+INFO: [Common 17-186] 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim/xsim.dir/tb_driver_7seg_4digits_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Mar 24 12:29:49 2022. For additional details about this file, please refer to the WebTalk help file at C:/APPZ/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html.
+INFO: [Common 17-206] Exiting Webtalk at Thu Mar 24 12:29:49 2022...
+run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1020.727 ; gain = 0.000
+INFO: [USF-XSim-69] 'elaborate' step finished in '8' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_driver_7seg_4digits_behav -key {Behavioral:sim_1:Functional:tb_driver_7seg_4digits} -tclbatch {tb_driver_7seg_4digits.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_driver_7seg_4digits.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:05 ; elapsed = 00:00:14 . Memory (MB): peak = 1020.727 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close_sim: Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1020.727 ; gain = 0.000
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'driver_7seg_4digits'
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/APPZ/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7segg [hex_7segg_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_driver_7seg_4digits
+Built simulation snapshot tb_driver_7seg_4digits_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_driver_7seg_4digits_behav -key {Behavioral:sim_1:Functional:tb_driver_7seg_4digits} -tclbatch {tb_driver_7seg_4digits.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_driver_7seg_4digits.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1020.727 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/APPZ/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_driver_7seg_4digits_behav -key {Behavioral:sim_1:Functional:tb_driver_7seg_4digits} -tclbatch {tb_driver_7seg_4digits.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_driver_7seg_4digits.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:05 . Memory (MB): peak = 1020.727 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/APPZ/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7segg [hex_7segg_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_driver_7seg_4digits
+Built simulation snapshot tb_driver_7seg_4digits_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_driver_7seg_4digits_behav -key {Behavioral:sim_1:Functional:tb_driver_7seg_4digits} -tclbatch {tb_driver_7seg_4digits.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_driver_7seg_4digits.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1020.727 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+launch_simulation
+Command: launch_simulation 
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'tb_driver_7seg_4digits' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xvhdl --incr --relax -prj tb_driver_7seg_4digits_vhdl.prj"
+INFO: [VRFC 10-163] Analyzing VHDL file "D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sim_1/new/tb_driver_7seg_4digits.vhd" into library xil_defaultlib
+INFO: [VRFC 10-3107] analyzing entity 'tb_driver_7seg_4digits'
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+"xelab -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log"
+Vivado Simulator 2020.1
+Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved.
+Running: C:/APPZ/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto b46a0016371142c2bb42a07ade85daa7 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_driver_7seg_4digits_behav xil_defaultlib.tb_driver_7seg_4digits -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling package std.standard
+Compiling package std.textio
+Compiling package ieee.std_logic_1164
+Compiling package ieee.numeric_std
+Compiling architecture behavioral of entity xil_defaultlib.clock_enable [\clock_enable(g_max=4)\]
+Compiling architecture behavioral of entity xil_defaultlib.cnt_up_down [\cnt_up_down(g_cnt_width=2)\]
+Compiling architecture behavioral of entity xil_defaultlib.hex_7segg [hex_7segg_default]
+Compiling architecture behavioral of entity xil_defaultlib.driver_7seg_4digits [driver_7seg_4digits_default]
+Compiling architecture testbench of entity xil_defaultlib.tb_driver_7seg_4digits
+Built simulation snapshot tb_driver_7seg_4digits_behav
+INFO: [USF-XSim-69] 'elaborate' step finished in '2' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "tb_driver_7seg_4digits_behav -key {Behavioral:sim_1:Functional:tb_driver_7seg_4digits} -tclbatch {tb_driver_7seg_4digits.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2020.1
+Time resolution is 1 ps
+source tb_driver_7seg_4digits.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'tb_driver_7seg_4digits_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+launch_simulation: Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1092.418 ; gain = 0.000
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+close [ open D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd w ]
+add_files D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/sources_1/new/top.vhd
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+file mkdir D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1
+file mkdir D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1/new
+close [ open D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1/new/nexys-a7-50t.xdc w ]
+add_files -fileset constrs_1 D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.srcs/constrs_1/new/nexys-a7-50t.xdc
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Mar 24 12:51:02 2022] Launched synth_1...
+Run output will be captured here: D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.runs/synth_1/runme.log
+[Thu Mar 24 12:51:02 2022] Launched impl_1...
+Run output will be captured here: D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Thu Mar 24 12:52:37 2022] Launched synth_1...
+Run output will be captured here: D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.runs/synth_1/runme.log
+[Thu Mar 24 12:52:37 2022] Launched impl_1...
+Run output will be captured here: D:/Documents/230241/digital-electronic-1/labs/07-display_driver/display_driver/display_driver.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Mar 24 12:54:00 2022...
