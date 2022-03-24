@@ -42,4 +42,4 @@
 
 1. Image of the top layer structure including both counters, ie a 4-bit bidirectional counter from *Part 4* and a 16-bit counter with a 10 ms time base from *Experiments on your own*. The image can be drawn on a computer or by hand. Always name all inputs, outputs, components and internal signals!
 
-   ![your figure]()
+   ![your figure](https://github.com/MichaelDolezel/digital-electronic-1/blob/534bb7e196622e87987076280759197ffc88a635/labs/06-counter/images/schem.jpg)
