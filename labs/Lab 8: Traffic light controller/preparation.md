@@ -2,8 +2,8 @@
 
 | **RGB LED** | **Artix-7 pin names** | **Red** | **Yellow** | **Green** |
 | :-: | :-: | :-: | :-: | :-: |
-| LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `1,1,0` |
-| LD17 | N16, G14, R11 | `1,0,0` | `1,1,0` | `1,0,0` |
+| LD16 | N15, M16, R12 | `1,0,0` | `1,1,0` | `0,1,0` |
+| LD17 | N16, G14, R11 | `1,0,0` | `1,1,0` | `0,1,0` |
 
 ![your figure](https://github.com/MichaelDolezel/digital-electronic-1/blob/c2d0e214545e38c37a9a5311e4a3e4f40ad0aed8/labs/Lab%208:%20Traffic%20light%20controller/image/160697156-e9ea71c5-4bc7-4f47-9a87-e68209f20f32.png)
 
